@@ -1,0 +1,75 @@
+@charset "utf-8";
+
+/* CSS Document */
+ #geral{
+	 width:1000px;
+     margin:0 auto;/*centralizando a div*/
+ }
+  
+  #cabecalho h1{
+  	width:1000px;
+	background-color:rgb(25, 67, 101);
+	padding:10px;
+	color:#ffffff;
+}
+    
+  #rodape{
+  	width:1000px;
+	background-color:rgb(25, 67, 101);
+	padding:20px;
+	color:#ffffff;
+	text-align:center;
+	clear: both;
+	
+  }
+  #esquerda{
+	width:194px;
+    padding:3px;
+	float:left;
+	top:1000px;
+  }
+  
+  #conteudo{
+	 background-color:rgb(25, 67, 101);
+     width:800px;
+  	 float:right;
+	 margin-bottom:5px;
+  }
+   #listamenu li{
+	 list-style-type:none; /*tirando o marcador da lista*/
+	 display:block; /*definindo a lista como um bloco*/
+	 padding:15px; /*espacamento entre os blocos*/
+	 margin-bottom:15px;/*separando os blocos um do outro */
+	 text-align:center; /*definindo o bloco com  texto centralizado */
+	 font-weight:bold; /*definindo o texto em negrito*/
+	 border:3px solid #0d2a8b; /*definindo tamanho, tipo e cor da borda */
+	 background:rgb(25, 67, 101); /*definindo a cor do bloco */
+	 font-size:16px; /*definindo o tamanho da fonte */
+	 width:115px;/*definindo a largura do bloco*/
+	 color:#ffffff; /*definindo a cor da fonte */
+	font-family:Verdana, Geneva, sans-serif; /*definindo a familia de fontes */
+ 
+ }
+ #listamenu li a{
+	 text-decoration:none; /*tirando a sublinhado do link */
+	 color:#ffffff;
+ }
+ 
+ #listamenu li a:hover{
+	 color:rgb(255, 255, 255); /*definindo a cor da fonte */
+	 display:block; /*definindo a lista como bloco */
+	 background:#99c1f5; /*definindo a cor do bloco */
+	 font-style:Verdana, Geneva, sans-serif; /*definindo o texto italico */
+	 
+}
+.texto{
+	font-family: Verdana, Geneva, sans-serif; 
+	color:rgb(255, 255, 255); /*definindo a cor da fonte */
+	
+}
+.imagem_conteudo{
+	width:260px;
+	height:300px;
+	
+	
+}
